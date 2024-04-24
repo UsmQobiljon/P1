@@ -68,7 +68,7 @@ void loop(){
             // turns the GPIOs on and off
             if (header.indexOf("GET /26/on") >= 0) {
               Serial.println("GPIO 26 on");
-              output26State = "on";
+              LED = "on";
               digitalWrite(output26, HIGH);
             } else if (header.indexOf("GET /26/off") >= 0) {
               Serial.println("GPIO 26 off");
