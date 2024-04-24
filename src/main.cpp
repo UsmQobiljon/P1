@@ -65,7 +65,7 @@ void loop(){
             client.println("Connection: close");
             client.println();
 
-            //
+            // hi test
             // turns the GPIOs on and off
             if (header.indexOf("GET /26/on") >= 0) {
               Serial.println("GPIO 26 on");
